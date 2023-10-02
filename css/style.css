@@ -67,7 +67,7 @@ body {
 
 
 
-.menu li::after {
+.menu li a::after {
     content:"";
     width:0;
     height:4px;
@@ -77,7 +77,7 @@ body {
     transition: .9s;
 }
 
-.menu li:hover::after {
+.menu li a:hover::after {
     width: 100%;
 }
 
